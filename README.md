@@ -121,8 +121,9 @@ Implementation of a custom command-line shell with built-in commands, process ma
 
 I'm always interested in discussing embedded systems, low-level programming, or potential opportunities!
 
-- 💼 [LinkedIn]([your-linkedin-url](https://www.linkedin.com/in/david-alvin-trujillo-medina-18a265372))
+- 💼 [LinkedIn](https://www.linkedin.com/in/david-alvin-trujillo-medina-18a265372)
 - 📧 [Email](d.trujillo@unc.edu.ar)
+- 📱 +5493517734079
 
 ---
 
