@@ -79,15 +79,26 @@ Complete refactor and enhancement of NXP LPC1769 microcontroller drivers, improv
 - 🎯 Implemented clean API design for peripheral access
 - 🔧 Used in teaching materials for Digital Electronics 3
 
-### [Router Simulator with Dijkstra](https://github.com/David-A-T-M/AyED_final)
-**C++ | Data Structures | Algorithms**
+### [Router Simulator with Dijkstra V2.0](https://github.com/David-A-T-M/RouterSimulator_cpp)
+**Modern C++20 | Dijkstra’s Algorithm | STL | Systems Architecture**
 
-Network router simulator that models terminal connections and finds optimal routing paths using Dijkstra's algorithm with traffic simulation capabilities.
+A robust, event-driven network simulator designed to model packet routing and reassembly in congested topologies. Refactored for high memory efficiency and architectural decoupling.
 
-- 🌐 Simulates network topology and routing decisions
-- 📊 Implements Dijkstra's algorithm for shortest path computation
-- 🚦 Models network traffic and congestion
-- 💡 Demonstrates understanding of graph algorithms and network protocols
+📊 **Real-time Network Monitoring**
+The simulator provides a detailed dashboard of the network state, tracking performance metrics across layers:
+
+<img width="324" height="463" alt="image_2026-02-28_115401283" src="https://github.com/user-attachments/assets/979b1810-bfa8-4e44-aa8c-844652b618a0" />
+
+- ⚡ **Modern C++20 Engine:** Leverages Concepts, Ranges, and Smart Pointers for a memory-safe, type-secure simulation core.
+- 🧠 **Dynamic Routing:** Implements a custom Dijkstra-based engine that recalculates optimal paths in real-time based on network load and topology changes.
+- 📦 **Packet Reassembly Logic:** Sophisticated handling of multi-packet pages with unique {Source IP, Page ID} identification and timeout management.
+- 📊 **Observability:** Features a decoupled architecture currently being extended to support Prometheus metric exporting and real-time Grafana dashboards.
+- 🛠️ **Robust Engineering:** Zero-warning build (Clang-Tidy/Cppcheck) with automated CI/CD for style and static analysis.
+- 🗺️ **Roadmap & Future Enhancements:** The architecture is designed to be extensible. Current development goals include:
+  - 📈 Full Observability Suite: Integration with Prometheus (Textfile Collector) and Grafana for advanced time-series analysis.
+  - ⚙️ External Configuration: Moving from hardcoded parameters to JSON-based configuration for dynamic simulation setups.
+  - 🧵 Multithreading Engine: Parallelizing router processing logic to handle massive network topologies (1000+ nodes).
+  - 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
 
 ### [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
 **Linux | Prometheus | Grafana | DevOps**
