@@ -101,7 +101,7 @@ The simulator provides a detailed dashboard of the network state, tracking perfo
   - 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
 
 ### [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
-**Linux | Prometheus | Grafana | DevOps**
+**Linux | Prometheus | Grafana | DevOps** *(Refactor in progress)*
 
 Real-time system monitoring solution that reads from the Linux `/proc` filesystem and visualizes metrics using modern observability tools.
 
@@ -119,8 +119,8 @@ Teaching materials and workshop exercises for microcontroller programming course
 - 📝 Comprehensive documentation and learning materials
 - 🔨 Practical examples of peripheral usage (GPIO, timers, UART, etc.)
 
-### Custom Linux Shell
-**Linux | C | System Programming** *(In Development)*
+### [Custom Linux Shell](https://github.com/David-A-T-M/CustomShell)
+**Linux | C | System Programming** *(Under Development)*
 
 Implementation of a custom command-line shell with built-in commands, process management, and piping capabilities.
 
