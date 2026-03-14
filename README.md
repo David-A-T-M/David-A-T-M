@@ -28,32 +28,22 @@ I'm actively seeking **entry-level positions** or **junior developer roles** in:
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-
 ### Embedded Systems & Hardware
 ![ARM](https://img.shields.io/badge/ARM%20Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 ![Microchip](https://img.shields.io/badge/PIC-EE3233?style=for-the-badge&logo=microchip&logoColor=white)
 ![NXP](https://img.shields.io/badge/NXP%20LPC1769-000000?style=for-the-badge)
 
 ### Operating Systems & Platforms
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![](https://go-skill-icons.vercel.app/api/icons?i=linux,fedora,windows,ubuntu,mint,manjaro)
 
 ### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://go-skill-icons.vercel.app/api/icons?i=mysql,mongodb,sqlite) 
 
 ### Tools & Technologies
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![](https://go-skill-icons.vercel.app/api/icons?i=git,docker,prometheus,grafana,markdown) 
 
 ### Development Environment
-![CLion](https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
+![](https://go-skill-icons.vercel.app/api/icons?i=clion,idea) 
 
 ### Learning & Community
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
@@ -69,8 +59,9 @@ I'm actively seeking **entry-level positions** or **junior developer roles** in:
 
 ## 🚀 Featured Projects
 
-### [LPC17xx CMSIS Driver Enhancement](https://github.com/David-A-T-M/LPC17xx-CMSIS-Driver-Enhancement)
-**Embedded Systems | C | ARM Cortex-M3**
+### ![](https://go-skill-icons.vercel.app/api/icons?i=c) [LPC17xx CMSIS Driver Enhancement](https://github.com/David-A-T-M/LPC17xx-CMSIS-Driver-Enhancement)
+
+**Embedded Systems | ARM Cortex-M3 | Testing**
 
 Complete refactor and enhancement of NXP LPC1769 microcontroller drivers, improving code quality, maintainability, and following modern embedded programming practices.
 
@@ -79,8 +70,8 @@ Complete refactor and enhancement of NXP LPC1769 microcontroller drivers, improv
 - 🎯 Implemented clean API design for peripheral access
 - 🔧 Used in teaching materials for Digital Electronics 3
 
-### [Router Simulator with Dijkstra V2.0](https://github.com/David-A-T-M/RouterSimulator_cpp)
-**Modern C++20 | Dijkstra’s Algorithm | STL | Systems Architecture**
+### ![](https://go-skill-icons.vercel.app/api/icons?i=cpp) [Router Simulator with Dijkstra V2.0](https://github.com/David-A-T-M/RouterSimulator_cpp)
+**C++20 | Dijkstra’s Algorithm | STL | Systems Architecture**
 
 A robust, event-driven network simulator designed to model packet routing and reassembly in congested topologies. Refactored for high memory efficiency and architectural decoupling.
 
@@ -100,7 +91,7 @@ The simulator provides a detailed dashboard of the network state, tracking perfo
   - 🧵 Multithreading Engine: Parallelizing router processing logic to handle massive network topologies (1000+ nodes).
   - 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
 
-### [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
+### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
 **Linux | Prometheus | Grafana | DevOps** *(Refactor in progress)*
 
 Real-time system monitoring solution that reads from the Linux `/proc` filesystem and visualizes metrics using modern observability tools.
@@ -110,8 +101,8 @@ Real-time system monitoring solution that reads from the Linux `/proc` filesyste
 - 📊 Creates Grafana dashboards for visualization
 - ⚡ Demonstrates understanding of Linux internals and monitoring best practices
 
-### [Digital Electronics 3 Workshops](https://github.com/David-A-T-M/DigitalElectronics3_Workshops)
-**Educational | ARM | C**
+### ![](https://go-skill-icons.vercel.app/api/icons?i=c) [Digital Electronics 3 Workshops](https://github.com/David-A-T-M/DigitalElectronics3_Workshops)
+**Educational | ARM**
 
 Teaching materials and workshop exercises for microcontroller programming course, designed to help students learn embedded systems development.
 
@@ -119,8 +110,8 @@ Teaching materials and workshop exercises for microcontroller programming course
 - 📝 Comprehensive documentation and learning materials
 - 🔨 Practical examples of peripheral usage (GPIO, timers, UART, etc.)
 
-### [Custom Linux Shell](https://github.com/David-A-T-M/CustomShell)
-**Linux | C | System Programming** *(Under Development)*
+### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Custom Linux Shell](https://github.com/David-A-T-M/CustomShell)
+**Linux | System Programming** *(Under Development)*
 
 Implementation of a custom command-line shell with built-in commands, process management, and piping capabilities.
 
@@ -132,9 +123,9 @@ Implementation of a custom command-line shell with built-in commands, process ma
 
 I'm always interested in discussing embedded systems, low-level programming, or potential opportunities!
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/david-alvin-trujillo-medina-18a265372)
-- 📧 [Email](d.trujillo@unc.edu.ar)
-- 📱 +5493517734079
+- ![](https://go-skill-icons.vercel.app/api/icons?i=linkedin) [LinkedIn](https://www.linkedin.com/in/david-alvin-trujillo-medina-18a265372)
+- ![](https://go-skill-icons.vercel.app/api/icons?i=gmail)  [Email](d.trujillo@unc.edu.ar)
+- ![](https://go-skill-icons.vercel.app/api/icons?i=android)  +5493517734079
 
 ---
 
