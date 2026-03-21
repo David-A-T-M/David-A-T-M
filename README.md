@@ -62,17 +62,20 @@ I'm actively seeking **entry-level positions** or **junior developer roles** in:
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c) [LPC17xx CMSIS Driver Enhancement](https://github.com/David-A-T-M/LPC17xx-CMSIS-Driver-Enhancement)
 
 **Embedded Systems | ARM Cortex-M3 | Testing**
-
+<details>
+  <summary><b>DETAILS</b></summary>
 Complete refactor and enhancement of NXP LPC1769 microcontroller drivers, improving code quality, maintainability, and following modern embedded programming practices.
 
 - ✨ Restructured original NXP drivers for better modularity
 - 📚 Enhanced documentation and code readability
 - 🎯 Implemented clean API design for peripheral access
 - 🔧 Used in teaching materials for Digital Electronics 3
+</details>
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=cpp) [Router Simulator with Dijkstra V2.0](https://github.com/David-A-T-M/RouterSimulator_cpp)
 **C++20 | Dijkstra’s Algorithm | STL | Systems Architecture**
-
+<details>
+  <summary><b>DETAILS</b></summary>
 A robust, event-driven network simulator designed to model packet routing and reassembly in congested topologies. Refactored for high memory efficiency and architectural decoupling.
 
 📊 **Real-time Network Monitoring**
@@ -90,10 +93,13 @@ The simulator provides a detailed dashboard of the network state, tracking perfo
   - [ ] ⚙️ External Configuration: Moving from hardcoded parameters to JSON-based configuration for dynamic simulation setups.
   - [ ] 🧵 Multithreading Engine: Parallelizing router processing logic to handle massive network topologies (1000+ nodes).
   - [ ] 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
+</details>
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=java) [Router Simulator with Dijkstra V1.0](https://github.com/David-A-T-M/RouterSimulator_java)
 **Java 21 | Gradle Kotlin DSL | JUnit 5 | Dijkstra**
 
+<details>
+  <summary><b>DETAILS</b></summary>
 A high-fidelity network simulation engine migrated from C++20 to **Java 21**. This project focuses on **Enterprise Backend Architecture**, implementing robust routing algorithms and automated telemetry collection using modern Java features and SOLID principles.
 
 - 🧠 **The "Systems to Backend" Transition**. This repository represents a strategic evolution from low-level C++ systems programming to a scalable Java-based architecture. Key improvements include:
@@ -119,34 +125,44 @@ A high-fidelity network simulation engine migrated from C++20 to **Java 21**. Th
   - [ ] **Persistence (JPA/Hibernate):** Store simulation history in **PostgreSQL**.
   - [ ] **Observability:** Integration with **Prometheus** and **Grafana** for real-time monitoring.
   - [ ] **Concurrency:** Implementation of **Java 21 Virtual Threads** to scale to 100k+ nodes.
+</details>
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
 **Linux | Prometheus | Grafana | DevOps** *(Refactor in progress)*
 
+<details>
+  <summary><b>DETAILS</b></summary>
 Real-time system monitoring solution that reads from the Linux `/proc` filesystem and visualizes metrics using modern observability tools.
 
 - 📈 Collects system metrics from /proc filesystem
 - 🔍 Integrates Prometheus for metrics storage
 - 📊 Creates Grafana dashboards for visualization
 - ⚡ Demonstrates understanding of Linux internals and monitoring best practices
+</details>
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c) [Digital Electronics 3 Workshops](https://github.com/David-A-T-M/DigitalElectronics3_Workshops)
 **Educational | ARM**
 
+<details>
+  <summary><b>DETAILS</b></summary>
 Teaching materials and workshop exercises for microcontroller programming course, designed to help students learn embedded systems development.
 
 - 🎓 Hands-on exercises for LPC1769 microcontroller
 - 📝 Comprehensive documentation and learning materials
 - 🔨 Practical examples of peripheral usage (GPIO, timers, UART, etc.)
+</details>
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Custom Linux Shell](https://github.com/David-A-T-M/CustomShell)
 **Linux | System Programming** *(Under Development)*
 
+<details>
+  <summary><b>DETAILS</b></summary>
 Implementation of a custom command-line shell with built-in commands, process management, and piping capabilities.
 
 - 🖥️ Built from scratch in C
 - ⚙️ Process creation and management
 - 🔀 Pipeline and redirection support
+</details>
 
 ## 📫 Let's Connect
 
