@@ -86,10 +86,39 @@ The simulator provides a detailed dashboard of the network state, tracking perfo
 - 📊 **Observability:** Features a decoupled architecture currently being extended to support Prometheus metric exporting and real-time Grafana dashboards.
 - 🛠️ **Robust Engineering:** Zero-warning build (Clang-Tidy/Cppcheck) with automated CI/CD for style and static analysis.
 - 🗺️ **Roadmap & Future Enhancements:** The architecture is designed to be extensible. Current development goals include:
-  - 📈 Full Observability Suite: Integration with Prometheus (Textfile Collector) and Grafana for advanced time-series analysis.
-  - ⚙️ External Configuration: Moving from hardcoded parameters to JSON-based configuration for dynamic simulation setups.
-  - 🧵 Multithreading Engine: Parallelizing router processing logic to handle massive network topologies (1000+ nodes).
-  - 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
+  - [ ] 📈 Full Observability Suite: Integration with Prometheus (Textfile Collector) and Grafana for advanced time-series analysis.
+  - [ ] ⚙️ External Configuration: Moving from hardcoded parameters to JSON-based configuration for dynamic simulation setups.
+  - [ ] 🧵 Multithreading Engine: Parallelizing router processing logic to handle massive network topologies (1000+ nodes).
+  - [ ] 🎨 Interactive UI: Transitioning from CLI to a graphical interface using Dear ImGui or SFML.
+
+### ![](https://go-skill-icons.vercel.app/api/icons?i=java) [Router Simulator with Dijkstra V1.0](https://github.com/David-A-T-M/RouterSimulator_java)
+**Java 21 | Gradle Kotlin DSL | JUnit 5 | Dijkstra**
+
+A high-fidelity network simulation engine migrated from C++20 to **Java 21**. This project focuses on **Enterprise Backend Architecture**, implementing robust routing algorithms and automated telemetry collection using modern Java features and SOLID principles.
+
+- 🧠 **The "Systems to Backend" Transition**. This repository represents a strategic evolution from low-level C++ systems programming to a scalable Java-based architecture. Key improvements include:
+  - **Type Safety & Generics:** Elimination of manual casting through a decoupled `NetworkNode<T extends Stats>` hierarchy.
+  - **Functional Telemetry:** Using Java Streams and Map-Reduce patterns for real-time statistics aggregation.
+  - **Immutable Data Carriers:** Extensive use of **Java Records** for thread-safe state snapshots.
+- 🛠️ **Tech Stack**
+  - **Language:** Java 21 (LTS)
+  - **Build System:** Gradle (Kotlin DSL - `build.gradle.kts`)
+  - **Testing:** JUnit 5 (Jupiter) & AssertJ
+  - **Quality:** Google Java Style Guide via Checkstyle
+  - **CI/CD:** GitHub Actions for automated verification
+- 🚀 **Key Features**
+  - **Dynamic Dijkstra Routing:** Real-time routing table recalculation based on network load and buffer congestion.
+  - **Packet Reassembly Logic:** Sophisticated tracking of multi-packet `Page` objects with unique `{Source IP, Page ID}` identification and timeout/quarantine management.
+  - **Fluent Builder Pattern:** A specialized `NetworkStats.Builder` for incremental, error-resistant accumulation of global metrics.
+- 🧪 **Testing & Reliability.** The project maintains high standards of reliability with a comprehensive **JUnit 5** test suite:
+  - **Unit Testing:** Individual logic verification for Dijkstra edge cases (isolated nodes, 1-node networks).
+  - **Integration Testing:** Full-cycle simulation tests verifying that `packetsSent` at source equals `packetsReceived` + `packetsDropped` + `packetsTimedOut`.
+  - **Property Validation:** Record-level validation using compact constructors to ensure network invariants.
+- 🗺️ Backend Roadmap. I am evolving this simulator into a professional Backend showcase:
+  - [ ] **Spring Boot REST API:** Expose simulation control and stats via HTTP endpoints.
+  - [ ] **Persistence (JPA/Hibernate):** Store simulation history in **PostgreSQL**.
+  - [ ] **Observability:** Integration with **Prometheus** and **Grafana** for real-time monitoring.
+  - [ ] **Concurrency:** Implementation of **Java 21 Virtual Threads** to scale to 100k+ nodes.
 
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
 **Linux | Prometheus | Grafana | DevOps** *(Refactor in progress)*
