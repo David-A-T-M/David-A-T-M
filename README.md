@@ -127,6 +127,30 @@ A high-fidelity network simulation engine migrated from C++20 to **Java 21**. Th
   - [ ] **Concurrency:** Implementation of **Java 21 Virtual Threads** to scale to 100k+ nodes.
 </details>
 
+### ![](https://go-skill-icons.vercel.app/api/icons?i=java) [Petri Net Engine & Visualizer](https://github.com/David-A-T-M/PetriNet_Simulator)
+**Java 21 | JavaFX | Jackson | Software Architecture**
+
+<details>
+  <summary><b>DETAILS</b></summary>
+A high-performance Petri Net simulation engine featuring a decoupled architecture and real-time visualization.
+
+- 🏗️ **Architectural Decoupling.** The system is strictly divided into three specialized domains to ensure maintainability:
+  - **Logic Engine:** Pure mathematical representation of the Petri Net (Incidence matrices, firing rules, and marking invariants).
+  - **Layout Engine:** Orthogonal (Manhattan) and curved path routing for clear visualization of complex topologies.
+  - **Workspace Manager:** A "Master Config" system that allows switching between different models (Producer-Consumer, Dining Philosophers, Resource Allocation) via JSON injection.
+- 🚀 **Advanced Java 21 Features**
+  - **Domain Modeling with Records:** Extensive use of deeply nested Java Records to handle immutable configuration states (Layouts, Waypoints, and Petri Logic).
+  - **Functional Pipelines:** Leveraging Java Streams and Optionals for robust configuration loading and error handling.
+  - **Modern JavaFX UI:** Custom rendering engine that uses `PathTransition` and `ParallelTransition` to animate tokens across multi-segment paths.
+- 🛠️ **Key Technical Milestones**
+  - **Flexible JSON Configuration:** Moving from hardcoded parameters to a fully externalized JSON system, enabling "hot-swapping" of network models.
+  - **Concurrency & Events:** Event-driven communication between the simulation relay and the UI layer to ensure smooth animations without blocking the engine's logic.
+- 🗺️ **Roadmap & Evolution**
+  - [ ] **Observability Suite:** Integration with **Prometheus** and **Grafana** to monitor transition firing rates and place congestion in real-time.
+  - [ ] **Persistence Layer:** Implementation of **SQLite** to log simulation history and enable "Time-Travel" debugging/replay.
+  - [ ] **Interactive Designer:** Transitioning from JSON-only setups to a Drag & Drop GUI for real-time Petri Net modeling.
+</details>
+
 ### ![](https://go-skill-icons.vercel.app/api/icons?i=c,linux) [Linux System Monitor](https://github.com/David-A-T-M/Monitoring_project_so1)
 **Linux | Prometheus | Grafana | DevOps** *(Refactor in progress)*
 
